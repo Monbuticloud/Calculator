@@ -63,3 +63,13 @@ button:active {
 .operator-btn:active {
   background-color: hsl(35, 100%, 75%);
 }
+
+.Long {
+  background-color: hsla(103, 100%, 50%, 1)
+}
+.Long:hover{
+  background-color: hsla(103, 100%, 60%, 1)
+}
+.Long:active{
+  background-color: hsla(103, 100%, 70%, 1)
+}
