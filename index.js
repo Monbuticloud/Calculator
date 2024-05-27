@@ -1,9 +1,9 @@
-const display =document.getElementByld ("display");
-function append ToDisplay (input){
+const display = document.getElementByld("display");
+function appendToDisplay (input){
     display.value += input;
 ｝
-function clear Display (){
-    display.value = ''";
+function clearDisplay (){
+    display.value = '';
 }
 function calculate(){
     try{
