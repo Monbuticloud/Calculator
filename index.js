@@ -18,7 +18,7 @@ async function calculate(){
         var x = display.value
         var str = ''
      for (let i = 0; i < x.length; i++) {
-         if x[i] == '^'{
+         if (x[i] == '^') {
              str = str + "**"
          }
          else{
