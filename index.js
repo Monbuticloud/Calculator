@@ -11,10 +11,10 @@ function clearDisplay(){
 }
 async function calculate(){
     try{
-        await display.value = eval (display.value);
+        display.value = eval (display.value);
     }
     catch (error){
-        await display.value = "Error";
+        display.value = "Error";
         
         await sleep(500)
         clearDisplay()
