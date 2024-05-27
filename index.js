@@ -15,6 +15,15 @@ async function calculate(){
     }
     catch (error){
         display.value = "Error";
+        var x = display.value
+        var str = ''
+     for (let i = 0; i < x.length; i++) {
+         if x[i] == '^'{
+             str = str + "**"
+         }
+         else{
+          str = str + x[i];
+      }}
         
         await sleep(500)
         clearDisplay()
