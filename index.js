@@ -11,11 +11,7 @@ function clearDisplay(){
 }
 async function calculate(){
     try{
-        display.value = eval (display.value);
-    }
-    catch (error){
-        display.value = "Error";
-        var x = display.value
+                var x = display.value
         var str = ''
      for (let i = 0; i < x.length; i++) {
          if (x[i] == '^') {
@@ -24,6 +20,11 @@ async function calculate(){
          else{
           str = str + x[i];
       }}
+        display.value = eval(str);
+    }
+    catch (error){
+        display.value = "Error";
+
         
         await sleep(500)
         clearDisplay()
