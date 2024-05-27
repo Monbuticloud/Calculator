@@ -9,12 +9,12 @@ function sleep(ms) {
 function clearDisplay(){
     display.value = '';
 }
-function calculate(){
+async function calculate(){
     try{
-        display.value = eval (display.value);
+        await display.value = eval (display.value);
     }
     catch (error){
-        display.value = "Error";
+        await display.value = "Error";
         
         await sleep(500)
         clearDisplay()
