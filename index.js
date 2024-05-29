@@ -9,6 +9,11 @@ function sleep(ms) {
 function clearDisplay(){
     display.value = '';
 }
+
+function deleteTrailing(){
+    display.value  = display.value.slice(0, -1)
+}
+
 async function calculate(){
     try{
                 var x = display.value
