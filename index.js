@@ -25,7 +25,7 @@ async function calculate(){
          else{
           str = str + x[i];
       }}
-        display.value = eval(str).toPrecision(99);
+        display.value = eval(str).toPrecision(2);
     }
     catch (error){
         display.value = "Error";
