@@ -3,6 +3,9 @@ function appendToDisplay(input){
     display.value += input;
 }
 //｝
+function appendBrackets() {
+    display.value = ("("+display.value+")")
+}
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
