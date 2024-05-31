@@ -30,8 +30,7 @@ body {
   grid-template-columns: repeat(6, 1fr);
   gap: 10px;
   padding: 25px;
-  text-align:center; 
-  vertical-align:middle;
+
 }
 
 button {
@@ -44,6 +43,8 @@ button {
   font-size: 3rem;
   font-weight: bold;
   cursor: pointer;
+  text-align:center; 
+  vertical-align:middle;
 }
 
 button:hover {
