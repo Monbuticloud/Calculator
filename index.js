@@ -28,7 +28,7 @@ async function calculate(){
          else{
           str = str + x[i];
       }}
-        if str.length < 6{
+        if (str.length < 6){
             
         display.value = eval(str).toPrecision(6);
     }
