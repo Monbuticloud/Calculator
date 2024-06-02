@@ -31,7 +31,7 @@ async function calculate(){
         display.value = eval(str).toPrecision(2);
     }
     catch (error){
-        display.value = "Error";
+        display.value = error;
 
         
         await sleep(500)
