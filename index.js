@@ -34,7 +34,7 @@ async function calculate(){
         display.value = error;
 
         
-        await sleep(500)
+        await sleep(1500)
         clearDisplay()
     }
 }
