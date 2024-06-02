@@ -28,7 +28,14 @@ async function calculate(){
          else{
           str = str + x[i];
       }}
+        if str.length < 6{
+            
         display.value = eval(str).toPrecision(6);
+    }
+        else{
+            display.value = eval(str).toPrecision(str.length+1);
+        }
+    
     }
     catch (error){
         display.value = error;
