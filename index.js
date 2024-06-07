@@ -12,7 +12,9 @@ function sleep(ms) {
 function clearDisplay(){
     display.value = '';
 }
-
+function ln(x){
+    return (Math.log(x))
+}
 function deleteTrailing(){
     display.value  = display.value.slice(0, -1)
 }
