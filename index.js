@@ -12,6 +12,19 @@ function sleep(ms) {
 function clearDisplay(){
     display.value = '';
 }
+function root(base, number){
+    return Math.pow(number, (1 / base))
+}
+function cbrt(x){
+    return Math.pow(x, 1/3)
+}
+function sqrt(x) {
+    return Math.sqrt(x)
+}
+
+
+
+
 function ln(x){
     return (Math.log(x))
 }
