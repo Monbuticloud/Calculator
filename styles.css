@@ -78,10 +78,10 @@ button:active {
   background-color: hsla(103, 100%, 70%, 1)
 }
 
-diskplus {
+#diskplus {
     display: none;
 }
     
-#plus:hover + diskplus {
+#plus:hover + #diskplus {
     display: block;
 }
