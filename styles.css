@@ -82,6 +82,6 @@ diskplus {
     display: none;
 }
     
-.operator-btn:hover + diskplus {
+#plus:hover + diskplus {
     display: block;
 }
