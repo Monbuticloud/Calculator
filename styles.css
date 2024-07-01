@@ -77,3 +77,11 @@ button:active {
 .Long:active{
   background-color: hsla(103, 100%, 70%, 1)
 }
+
+diskplus {
+    display: none;
+}
+    
+.operator-btn:hover + diskplus {
+    display: block;
+}
