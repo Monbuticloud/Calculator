@@ -69,19 +69,24 @@ button:active {
 }
 
 .Long {
-  background-color: hsla(103, 100%, 50%, 1)
+  background-color: hsla(103, 100%, 50%, 1);
 }
 .Long:hover{
-  background-color: hsla(103, 100%, 60%, 1)
+  background-color: hsla(103, 100%, 60%, 1);
 }
 .Long:active{
-  background-color: hsla(103, 100%, 70%, 1)
+  background-color: hsla(103, 100%, 70%, 1);
 }
 
 #diskplus {
-    display: none;
+  display: block;
+  height: 100px;
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  overflow-y: scroll;
+  border-width: 12px;
+  border-style: solid;
+  padding: 3px;
+  border-color: gray;
 }
-    
-#plus:hover + #diskplus {
-    display: block;
-}
+
