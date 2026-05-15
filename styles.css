@@ -31,7 +31,6 @@ body {
   grid-template-columns: repeat(8, 1fr);
   gap: 9px;
   padding: 25px;
-
 }
 
 button {
@@ -45,8 +44,8 @@ button {
   font-size: 3rem;
   font-weight: bold;
   cursor: pointer;
-  text-align:center; 
-  vertical-align:middle;
+  text-align: center;
+  vertical-align: middle;
 }
 
 button:hover {
@@ -72,10 +71,10 @@ button:active {
 .Long {
   background-color: hsla(103, 100%, 50%, 1);
 }
-.Long:hover{
+.Long:hover {
   background-color: hsla(103, 100%, 60%, 1);
 }
-.Long:active{
+.Long:active {
   background-color: hsla(103, 100%, 70%, 1);
 }
 
@@ -90,4 +89,3 @@ button:active {
   padding: 3px;
   border-color: gray;
 }
-

@@ -1,16 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-    <link rel="stylesheet" href=" styles.css">
+    <link rel="stylesheet" href=" styles.css" defer />
   </head>
   <body>
     <div id=" calculator">
-      <input id="display" readonly>
-      <div id= "diskplus">
-
+      <input id="display" readonly />
+      <div id="diskplus">
         +
         <p></p>
         adds two numbers together
@@ -18,35 +17,36 @@
         { x + y }
         <p></p>
         ----------------------------------------------
-
       </div>
       <div id="keys">
-        <button onclick="appendToDisplay('+') " class="operator-btn" id="plus">+</button>
+        <button onclick="appendToDisplay('+')" class="operator-btn" id="plus">
+          +
+        </button>
         <button onclick="appendToDisplay('7')">7</button>
-        <button onclick="appendToDisplay('8') ">8</button>
-        <button onclick="appendToDisplay('9') ">9</button>
-         <button onclick="appendToDisplay('')"> </button>
-        <button onclick="appendToDisplay('')"> </button>
-        <button onclick="appendToDisplay('')"> </button>
+        <button onclick="appendToDisplay('8')">8</button>
+        <button onclick="appendToDisplay('9')">9</button>
+        <button onclick="appendToDisplay('')">X</button>
+        <button onclick="appendToDisplay('')">X</button>
+        <button onclick="appendToDisplay('')">X</button>
         <button onclick="deleteTrailing()">D</button>
-        <button onclick="appendToDisplay('-') " class="operator-btn">-</button>
-        <button onclick="appendToDisplay('4') ">4</button>
-        <button onclick="appendToDisplay('5') ">5</button>
-        <button onclick="appendToDisplay('6') ">6</button>
-        <button onclick="appendToDisplay('')"> </button>
-        <button onclick="appendToDisplay('')"> </button>
-        <button onclick="appendToDisplay('')"> </button>
+        <button onclick="appendToDisplay('-')" class="operator-btn">-</button>
+        <button onclick="appendToDisplay('4')">4</button>
+        <button onclick="appendToDisplay('5')">5</button>
+        <button onclick="appendToDisplay('6')">6</button>
+        <button onclick="appendToDisplay('')">X</button>
+        <button onclick="appendToDisplay('')">X</button>
+        <button onclick="appendToDisplay('')">X</button>
         <button onclick="appendBrackets()">(x)</button>
-        <button onclick="appendToDisplay('*') " class="operator-btn">*</button>
-        <button onclick="appendToDisplay ('1') ">1</button>
-        <button onclick="appendToDisplay('2') ">2</button>
-        <button onclick="appendToDisplay ('3')">3</button>
-        <button onclick="appendToDisplay('')"> </button>
-        <button onclick="appendToDisplay('')"> </button>
-        <button onclick="appendToDisplay('')"> </button>
-        <button onclick="appendToDisplay('')"> </button>
+        <button onclick="appendToDisplay('*')" class="operator-btn">*</button>
+        <button onclick="appendToDisplay('1')">1</button>
+        <button onclick="appendToDisplay('2')">2</button>
+        <button onclick="appendToDisplay('3')">3</button>
+        <button onclick="appendToDisplay('')">X</button>
+        <button onclick="appendToDisplay('')">X</button>
+        <button onclick="appendToDisplay('')">X</button>
+        <button onclick="appendToDisplay('')">X</button>
         <button onclick="appendToDisplay('/')" class="operator-btn">/</button>
-        <button onclick="appendToDisplay ('0') ">0</button>
+        <button onclick="appendToDisplay('0')">0</button>
         <button onclick="appendToDisplay('.')">.</button>
         <button onclick="appendToDisplay('^')">^</button>
         <button onclick="appendToDisplay('^2')">^2</button>
@@ -54,17 +54,15 @@
         <button onclick="appendToDisplay('sqrt(')">sqrt</button>
         <button onclick="appendToDisplay('cbrt(')">cbrt</button>
         <button onclick="clearDisplay()" class="operator-btn">C</button>
-        <button onclick="calculate ()" class="Long">= </button>
-        <button onclick="appendToDisplay('(')"> ( </button>
-        <button onclick="appendToDisplay(')')"> ) </button>
-        <button onclick="appendToDisplay('ln(')"> ln </button>
+        <button onclick="calculate()" class="Long">=</button>
+        <button onclick="appendToDisplay('(')">(</button>
+        <button onclick="appendToDisplay(')')">)</button>
+        <button onclick="appendToDisplay('ln(')">ln</button>
         <button onclick="appendToDisplay(',')">,</button>
-        <button onclick="appendToDisplay('')"> </button>
-        <button onclick="appendToDisplay('')"> </button>
-        
-        
+        <button onclick="appendToDisplay('')">X</button>
+        <button onclick="appendToDisplay('')">X</button>
       </div>
     </div>
-    <script src="index.js"> </script>
+    <script src="index.js" defer></script>
   </body>
 </html>
